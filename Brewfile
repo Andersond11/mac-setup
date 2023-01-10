@@ -7,15 +7,19 @@ brew "git"
 brew "localstack"
 brew "mas"
 brew "neovim"
+brew "rcm"
 brew "the_silver_searcher"
 
+cask "blender"
 cask "docker"
 cask "google-chrome"
 cask "iterm2"
 cask "jetbrains-toolbox"
+cask "obsidian"
 cask "visual-studio-code"
 
 mas "1Password 7", id: 1333542190
+mas "Anytune", id: 722444976
 mas "1Password for Safari", id: 1569813296
 mas "DaisyDisk", id: 411643860
 mas "GarageBand", id: 682658836
