@@ -7,6 +7,8 @@ function echo_error() { echo -e '\033[1;31mERROR: '"$1"'\033[0m'; }
 
 echo_ok "Install starting. You may be asked for your password (for sudo)."
 
+cp dotfiles/zshrc ~/.zshrc
+
 if hash brew &>/dev/null; then
 	echo_ok "Homebrew already installed. Getting updates..."
 	brew update
