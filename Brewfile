@@ -17,6 +17,7 @@ cask "iterm2"
 cask "jetbrains-toolbox"
 cask "obsidian"
 cask "visual-studio-code"
+cask "vitamin-r"
 cask "webcatalog"
 
 mas "1Password 7", id: 1333542190
