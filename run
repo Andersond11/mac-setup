@@ -19,3 +19,9 @@ else
 fi
 
 brew bundle
+
+if xcode-select --version; then
+  echo_ok "xcode command line tools already installed"
+else
+  echo_warn "installing xcode command line tools..."
+fi

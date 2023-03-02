@@ -10,6 +10,14 @@ brew "neovim"
 brew "rcm"
 brew "the_silver_searcher"
 
+# Required for PostgreSQL install
+brew "gcc"
+brew "readline"
+brew "zlib"
+brew "curl"
+brew "ossp-uuid"
+
+cask "audio-hijack"
 cask "blender"
 cask "docker"
 cask "google-chrome"
