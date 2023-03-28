@@ -17,6 +17,7 @@ brew "zlib"
 brew "curl"
 brew "ossp-uuid"
 
+cask "1Password"
 cask "adobe-acrobat-reader"
 cask "audio-hijack"
 cask "blender"
@@ -26,11 +27,11 @@ cask "iterm2"
 cask "jetbrains-toolbox"
 cask "obsidian"
 cask "postico"
+cask "unity"
 cask "visual-studio-code"
 cask "vitamin-r"
 cask "webcatalog"
 
-mas "1Password 7", id: 1333542190
 mas "Anytune", id: 722444976
 mas "1Password for Safari", id: 1569813296
 mas "DaisyDisk", id: 411643860
